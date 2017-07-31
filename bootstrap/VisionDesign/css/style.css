@@ -1,0 +1,61 @@
+.nav > li > a {
+  color: #777;
+  padding: 2px 20px;
+  border-right: 1px solid gray;
+  margin-top: 23px;
+}
+
+.nav > li:last-child{}
+.nav > li:nth-child(3){
+    border-right: 2px dotted white;
+}
+.nav > li:nth-child(4){
+    padding: 0 10px;
+}
+.navbar{
+    margin-bottom: 0;
+}
+.navbar-brand{
+      padding: 20px 15px;
+      font-size: 25px;
+}
+.well{
+    background: black;
+}
+.form-control{
+      padding: 6px 3px;
+}
+.bgcolor{
+    background: #2d2c2d;
+    color: white;
+}
+.rules{
+    color: white;
+}
+.list-group-item {
+    background: #2d2c2d;
+    border: 1px solid #2d2c2d;
+    border-bottom: 2px solid black
+}
+a.list-group-item {
+  color: #9e999c;
+}
+.footer{
+    background-color: #1d1d1e;
+    color: #e7e7e8;
+}
+.footer p{
+    padding-top: 30px;
+    
+}
+.frmbg{
+    background-color: #333333;
+}
+.txtclr{
+    color: white;
+    font-size: 18px;
+    padding-top: 20px;
+}
+.frminline input[type=text]{
+    width: 49%;
+}

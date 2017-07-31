@@ -1,0 +1,68 @@
+.navbar{
+    margin-bottom: 0px;
+}
+.navbar-header img{
+    padding: 25px 0;
+}
+.menu ul li a{
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+.menu ul li{
+    border-right: 2px dotted gray;
+    padding: 0 15px;
+}
+.menu ul{
+    padding-top: 45px;
+}
+
+.sliderbg{
+    background-color: #212121;
+}
+.carousel-inner img{
+    width: 1140px;
+    position: relative;
+    top: 25px;
+    border-radius: 5px;
+}
+.lorenclr{
+    color: black;
+    background-color: white;
+    padding: 10px 0;
+    padding-top: 20px;
+    margin-top: 0px;
+    
+}
+hr{
+    border-top: 2px solid #eee;
+}
+.image>img{
+    width: 380px;
+    padding-bottom: 8px;
+}
+.socialimg ul img{
+    padding: 3px;
+    border: 2px solid gray;
+    margin: 4px;
+}
+.social_icon{
+    margin-bottom: 20px;
+}
+.line{
+    background: #4c4c4c;
+}
+
+.bgcolor{
+    background: #333333;
+}
+.ftclr ul li a{
+    color: #999999;
+}
+.ftclr ul li{
+    color: #999999;
+}
+.ftclr p{
+    color: #999999;
+    padding-top: 20px;
+}

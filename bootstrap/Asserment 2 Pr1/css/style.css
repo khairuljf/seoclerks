@@ -1,0 +1,41 @@
+@font-face{
+    font-family: khairul;
+    src:url(../fonts/OpenSans-Semibold.ttf);
+}
+body{
+    font-family: khairul;
+}
+.catagorie{
+    border-right: 2px solid gray;
+}
+.selectbdr{
+    border: 1px solid gray;
+    padding: 5px;
+    background: whitesmoke;
+    margin-bottom: 10px;
+}
+input[type="search"]{
+    margin: 10px 0 10px 0;
+}
+.bdrradius{
+    border-radius: 5px 5px 0 0;
+}
+.mainmenu{
+    background-color: #444;
+}
+.btn2{
+    background-color: #444;
+    color: #ccc;
+}
+.btn2:hover{
+    background-color: #444;
+    color: window;
+}
+.lead{
+    background: #ccc;
+    font-size: 30px;
+    font-weight: bold;
+}
+.lead{
+    background: none;
+}

@@ -1,0 +1,69 @@
+.buttonbg{
+    background-color: #192b7e;
+}
+.ext{
+    background-color: #3c4882;
+}
+.tab-style-1 ul.nav-tabs .active > a, .tab-style-1 ul.nav-tabs .active > a:hover, .tab-style-1 ul.nav-tabs .active > a:focus {
+    background-color: #222222;
+    color: white;
+}
+.tab-style-1 ul.nav-tabs:hover > a, .tab-style-1 ul.nav-tabs .active > a:hover, .tab-style-1 ul.nav-tabs .active > a:focus {
+    background-color: #555555;
+    color: white;
+}
+.tab-style-1 ul.nav-tabs li > a {
+    background-color: #555555;
+    color: white;
+}
+.tab-style-1 ul.nav-tabs li:hover > a {
+    background-color: #222222;
+    color: white;
+}
+
+.front-steps.front-step-one {
+    background: #464d6d url(../../img/steps/one.png) no-repeat right bottom;
+}
+.header .navbar-nav > li > a:hover, .header .navbar-nav li.active > a, .header .navbar-nav li.active:hover > a {
+    color: #15267b !important;
+    border-top: solid 2px #15267b !important;
+}
+.front-steps.front-step-one:after {
+    border-left: 15px solid #444759;
+}
+.progress-bar {
+    background-color: #428bca;
+}
+.header ul.nav {
+    float: right;
+    margin-right: 0;
+    margin-bottom: 8px;
+}
+.header .nav li.dropdown>.dropdown-toggle {
+    color: #7F2B9E;
+    border: none;
+}
+.header .nav li.dropdown>.dropdown-toggle {
+     color: black;
+    border: none;
+}
+.front-team h3 a {
+    color: #1535da;
+}
+.breadcrumbs li a {
+    color: black;
+}
+a {
+    color: #1535da;
+}
+.theme-btn {
+    color: #fff;
+    background: #2b3b8a !important;
+    border: solid 1px #7F2B9E;
+}
+.testimonials-v1 span.testimonials-name {
+    color: #2037a9;
+}
+.embed-responsive-4by3 {
+    padding-bottom: 55%;
+}

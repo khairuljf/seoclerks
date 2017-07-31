@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Project 02</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css">
+        <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    </head>
+    <body>
+        <div class="well text-center">
+            <h1>Project No 02</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <h2><mark>Ans the Question number 01</mark></h2>
+                <p class="text-justify"><span class="lead">Expression : </span>An expression is any valid unit of code that resolves to a value.
+                    Conceptually, there are two types of expressions: those that assign a value to a variable and those that
+                    simply have a value.  The expression x = 7 is an example of the first type. This expression uses the = operator to assign
+                    the value seven to the variable x. The expression itself evaluates to seven. The code 3 + 4 is an example of the second
+                    expression type. This expression uses the + operator to add three and four together without assigning the result, seven,
+                    to a variable.  <br><b>Example:</b><br>1. x=10;<br>2. 7+6;
+                </p>
+                <p><span class="lead">Statement : </span>  <br><b>Example:</b><br>1. var x = 5;
+
+<br>2. document.getElementById("demo").innerHTML = x; </p>
+            </div>
+            <hr>
+            <div class="row">
+                <h2><mark>Ans the Question number 02</mark></h2>
+                <p class="text-justify"><span class="lead">Evern number by javascript : </span>                </p>
+
+                <xmp>
+                    <script>
+                        for (i = 1; i <= 100; i++) {
+                            i++;
+                            document.write(i + "<br>");
+                        }
+                    </script>
+                </xmp>
+            </div>
+            <hr>
+            <div class="row">
+                <h2><mark>Ans the Question number 03</mark></h2>
+                <p class="text-justify"><span class="lead">Grade result: </span></p>
+                <xmp>
+                    <script>
+                        var grade = "H";
+                        switch (grade)
+                        {
+                            case "A":
+                                document.write("Good job<br />");
+                                break;
+                            case "B":
+                                document.write("Pretty good<br />");
+                                break;
+                            case "C":
+                                document.write("Passed<br />");
+                                break;
+                            case "D":
+                                document.write("Not so good<br />");
+                                break;
+                            case "F":
+                                document.write("Failed<br />");
+                                break;
+                            default:
+                                document.write("Unknown grade<br />")
+                                break;
+                        }
+                        document.write("Exiting switch block");</script>
+                </xmp>
+                <b>Output</b> "Unknown grade<br /> Exiting switch block"
+            </div>
+            <hr>
+            <div class="row">
+                <h2><mark>Ans the Question number 04</mark></h2>
+                <p class="text-justify"><span class="lead">branching &amp; loop : </span></p>
+                <xmp>
+                    <script>
+                        var userData = {firstName: "khairul", age: 20, contactNumber: 8801749677671, country: "Bangladesh", religion: "Islam", designation: "Programmer"};
+                        if (userData.firstName == "rubel")
+                        {
+                            document.write("Yes it's me, Rubel");
+                        }
+                        else if (userData.firstName == "khairul")
+                        {
+                            if (userData.age != 20)
+                            {
+                                document.write("No it's not me, But the Age & Contact number is correct");
+                            }
+                            else if (userData.religion != "Islam") {
+                                document.write("Neither it's me nor it’s my Contact number, But the Age & Country is correct");
+                            }
+                            else {
+                                var x = 20;
+                                a = x++;
+                                a = --x;
+
+                                for (a = ++x; a < 40; a++) // put a condition which will Show the output 10 times
+                                {
+                                    a += 1;
+                                    document.write("<h1>Neither it's me nor it’s my Contact number, Age & Country</h1>");
+                                }
+                            }
+                        }
+
+                    </script>
+                </xmp>
+            </div>
+        </div>
+        <!----
+        else if (userData.firstName=="azim")
+                {
+                document.write("No it's not me, but my Religion is Islam & I’m not 27 years old");
+                        }
+        else if (userData.firstName=="manik")
+                {
+                document.write("Yes I'm a Programmer");
+                        }
+        else{
+        document.write("All the Information’s are wrong");
+                }
+
+
+
+        -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    </body>
+</html>

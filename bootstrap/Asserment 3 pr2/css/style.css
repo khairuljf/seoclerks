@@ -1,0 +1,59 @@
+@font-face{
+    font-family: khairul;
+    src:url(../fonts/OpenSans-Semibold.ttf);
+}
+body{
+    font-family: khairul;
+}
+.catagorie{
+    border-right: 2px solid gray;
+}
+.selectbdr{
+    border: 1px solid gray;
+    padding: 5px;
+    background: whitesmoke;
+    margin-bottom: 10px;
+}
+input[type="search"]{
+    margin: 10px 0 10px 0;
+}
+.bdrradius{
+    border-radius: 5px 5px 0 0;
+}
+.mainmenu{
+    background-color: #444;
+}
+.btn2{
+    background-color: #444;
+    color: #ccc;
+}
+.btn2:hover{
+    background-color: #444;
+    color: window;
+}
+.lead{
+    background: #ccc;
+    font-size: 30px;
+    font-weight: bold;
+}
+.btn-lg, .btn-group-lg > .btn {
+  padding: 30px 30px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 46px;
+}
+.panel-body {
+  padding: 0;
+}
+.img-responsive, .thumbnail > img, .thumbnail a > img, .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 270px;
+}
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+  padding: 16px;
+  line-height: 1.42857143;
+  vertical-align: top;
+  border-top: 1px solid #ddd;
+}

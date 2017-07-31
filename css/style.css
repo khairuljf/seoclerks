@@ -1,0 +1,105 @@
+//header------------------------------------------------------->>
+.navbar{
+      min-height: 76px;
+      margin-bottom: 0px;
+      margin-top: 10px;
+}
+ul.nav.navbar-nav.navbar-right{
+    margin-top: 14px;
+}
+.navbar-header a img{
+    margin: 10px 0 0 0;
+}
+.navbar-nav > li > a {
+  line-height: 10px;
+  font-size: 16px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+    transition: all .25s;
+}
+.navbar-inverse .navbar-nav > li > a:hover {
+      background-color: #245580;
+      transform: scale(1.05);
+      border-radius: 7px 0 7px 0;
+}
+.btn-group, .btn-group-vertical {
+  margin-top: 15px;
+}
+.navbar-form {
+  margin-top: 18px;
+}
+header{
+    margin-top: 60px;
+}
+
+
+
+// content---------------------------------------------------->>
+.srtby{
+    margin-top: 30px;
+    font-size: 16px;
+}
+.thumbnail{
+    background-color: #ccc;
+}
+.thumbnail img{
+    height: 141px;
+}
+
+
+
+.ftbg{
+    background-color: #373737;
+    color: #e5e5e5;
+}
+.footer ul li a{
+    color: #ccc ;
+}
+.copyrihtbg{
+    background-color: black;
+    height: 50px;
+}
+.footer_copyright p{
+    margin-top: 15px;
+    color: #9d9d9d;
+}
+.footer_copyright ul li{
+    margin-top: 15px;
+}
+
+label {
+
+  font-size: 16px;
+}
+input[type="checkbox"]{
+    width: 18px;
+    height: 20px;
+    margin-top: 0px;
+}
+.bdrright{
+    border-left: 1px solid gray;
+    height: 200px;
+    margin-bottom: 200px;
+}
+.joinbottom{
+    margin-bottom: 350px;
+    border-left: 1px solid gray;
+    height: 190px;
+}
+
+.lbtmargin{
+    margin-top: 5px;
+}
+.customeskill{
+    width: 45%;
+}
+@media screen and (max-width: 767px) { 
+.khairul.navbar-collapse.pull-right.collapse.in{
+    width: 100%;
+    float: left;
+}
+.navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse{
+  max-height: none;
+}
+}

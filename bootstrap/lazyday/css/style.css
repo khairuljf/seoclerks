@@ -1,0 +1,110 @@
+.header_menu{
+    background: url(../images/header.jpg) fixed  no-repeat;
+    background-size: cover;
+    height: 992px
+}
+.header_menu ul li:first-child{
+    text-decoration: underline;
+}
+.headerimg ul li{
+    float: right;
+}
+.slider_title{
+    text-align: center;
+    position: absolute;
+    top: 630px;
+}
+.slider_title >h1{
+    font-size: 40px;
+    color: white;
+}
+.slider_title >p{
+    font-size: 90px;
+    color: white;
+}
+.slider_title >p{   
+}
+.arr{
+    position: relative;
+    top: 915px;
+    text-align: center;
+    color: #9b7e3c;
+}
+.who h2{
+    padding: 20px 0 0 0;
+}
+.skill img{
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.ourwork{
+    margin-bottom: 70px;
+}
+.ourwork span{
+    font-size: 30px;
+    font-weight: bold;
+}
+.process{
+    margin: 90px 0;
+}
+.process img{
+    margin-bottom: 10px;
+}
+.process h2{
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.team{
+    background: url(../images/member.png);
+    background-size: cover;
+}
+.team h1{
+    font-weight: bold;
+    padding: 80px 0;
+}
+.team h3{
+    font-weight: bold;
+}
+.team h4{
+    font-style: italic;
+}
+.ourproject h1{
+    background-color: #9d7e3e;
+    margin: 0;
+    padding: 30px;
+    font-weight: bold;
+}
+.projectfile img{
+    width: 33.33%;
+    float: left;
+}
+.contact h1{
+    background-color: white;
+    margin: 0;
+    padding: 50px;
+    font-weight: bold;
+}
+.footer{
+    padding: 30px 0;
+    background-color: #dcd9ae;
+}
+.footer ul li{
+    margin-top: 20px;
+      
+}
+.footer ul li a{
+    color: #9b7e3c;
+    
+}
+
+
+
+
+
+
+
+
+.tem_photo{
+    background: url(../images/);
+
+}

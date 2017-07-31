@@ -1,0 +1,33 @@
+.headbtn{
+    margin: 0 2px 0 0;
+    width: 110px;
+    text-align: center;
+    background-color:#f0f0f0;
+}
+.tblclr{
+    background-color: #3591cc;
+}
+.tablenav{
+    background-color: #3591cc;
+    height: 50px;
+}
+.col-md-12 ul{
+
+}
+.col-md-12 ul li{
+    margin: 15px 0 0 0;
+
+}
+.col-md-12 a{
+    color: white;
+}
+.myclass{
+    margin-left: 700px;
+}
+.smltbl{
+}
+p{
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 20px;
+}
